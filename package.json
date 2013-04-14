@@ -1,0 +1,21 @@
+{
+    "name": "color-log",
+    "version": "0.1",
+    "description": "Simple colorable log. Support inspect objects and single line update",
+    "keywords": [
+        "color",
+        "console",
+        "log",
+        "logging"
+    ],
+    "author": "Alexey Malorossiianov <funnycrabs@gmail.com>",
+    "main": "color-log",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/silvertoad/color.log.js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/silvertoad/color.log.js/issues"
+    },
+    "licence": "MIT"
+}
