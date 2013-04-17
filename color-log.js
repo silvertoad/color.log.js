@@ -9,7 +9,7 @@ var single_line = new loggers.SingleLine();
  */
 exports.info = function(msg)
 {
-    multi_line.info(msg);
+    multi_line.info(arguments);
 };
 
 /**
@@ -18,7 +18,7 @@ exports.info = function(msg)
  */
 exports.mark = function(msg)
 {
-    multi_line.mark(msg);
+    multi_line.mark(arguments);
 };
 
 /**
@@ -27,7 +27,7 @@ exports.mark = function(msg)
  */
 exports.error = function(msg)
 {
-    multi_line.error(msg);
+    multi_line.error(arguments);
 };
 
 /**
@@ -36,7 +36,7 @@ exports.error = function(msg)
  */
 exports.warn = function(msg)
 {
-    multi_line.warn(msg);
+    multi_line.warn(arguments);
 };
 
 /**
